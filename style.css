@@ -1,0 +1,45 @@
+.pane-background {
+    -fx-background-color: radial-gradient(center 50% 50%, radius 70%, cornsilk, lavender); /* 畫出漸層 */
+    -fx-opacity: 0.8; /* 設置整個 Pane 的透明度 */
+}
+
+.btn {
+	-fx-background-color: oldlace;
+	-fx-text-fill: black;
+	-fx-border-color: white;
+	-fx-border-width: 1px; /* 邊框寬度 */
+}
+.btn:hover {
+	-fx-background-color: peachpuff; /* 滑鼠滑到時的背景顏色 */
+	-fx-text-fill: red; /* 滑鼠滑到時的文字顏色 */
+	-fx-border-color: white; /* 滑鼠滑到時的邊框顏色 */
+}
+
+.slider {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-text-fill: darkgreen;
+}
+
+.slider .track {
+    -fx-background-color: darkblue;
+    -fx-background-insets: 0;
+    -fx-padding: 0.25em;
+    -fx-background-radius: 0.5em;
+}
+
+.slider .thumb {
+    -fx-background-color: lightblue;
+    -fx-background-radius: 1em;
+    -fx-pref-width: 14px;
+    -fx-pref-height: 14px;
+    -fx-border-color: darkblue;
+    -fx-border-width: 2px;
+}
+
+.slider .thumb:hover {
+    -fx-background-color: gold;
+    -fx-border-color: red;
+}

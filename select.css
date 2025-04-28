@@ -1,0 +1,6 @@
+.btn {
+    -fx-background-color: violet;
+    -fx-text-fill: darkblue;
+    -fx-border-color: red; /* 默認無邊框 */
+    -fx-border-width: 1px; /* 邊框寬度 */
+}
